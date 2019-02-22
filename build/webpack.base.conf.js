@@ -13,7 +13,7 @@ module.exports={
   externals: { paths: PATHS },
   entry: {
     app: PATHS.src,
-    'tests': './test/common.test.js',
+    'tests': './src/tests/common.test.js',
   },
   output: {
     filename: `${PATHS.assets}js/[name].js`,
